@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">FocusFlow</string>
+    <string name="logo_no_background">Logo_No_Background</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_to_focusflow">Welcome to FocusFlow</string>
+    <string name="master_your_productivity_with_focusflow">Master your productivity with FocusFlow</string>
+    <string name="next">Next</string>
+    <string name="get_started_with_taskgenius">Get Started with TaskGenius</string>
+    <string name="your_ultimate_task_companion">Your Ultimate Task Companion</string>
+    <string name="enter_taskopia">Enter Taskopia</string>
+    <string name="where_organization_meets_efficiency">Where Organization Meets Efficiency</string>
+    <string name="your_tasks">Your Tasks</string>
+    <string name="add_tasks">Add tasks</string>
+    <string name="new_task">New Task</string>
+    <string name="name">Name</string>
+    <string name="save">Save</string>
+    <string name="description">Description</string>
+    <string name="checkbox">Checkbox</string>
+    <string name="placeholder">placeholder</string>
+    <string name="edit_task">Edit Task</string>
 </resources>
