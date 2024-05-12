@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/my_bg_gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".UpdateCard">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_task"
+        android:textColor="@color/Background"
+        android:textSize="36sp"
+        android:gravity="center"
+        android:fontFamily="@font/anaheim"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/createTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_task"
+        android:layout_marginTop="30dp"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:padding="15dp"
+        android:background="@drawable/card_bg"
+        android:textColorHint="@color/Background"
+        android:textColor="@color/Background"
+        />
+
+    <EditText
+        android:id="@+id/createDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/description"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        android:padding="15dp"
+        android:background="@drawable/card_bg"
+        android:textColorHint="@color/Background"
+        android:textColor="@color/Background"
+        />
+    <Spinner
+        android:id="@+id/priority"
+        android:entries="@array/priority"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/card_bg"
+        android:layout_height="55dp" />
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+        <Button
+            android:id="@+id/update_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Primary"
+            android:textColor="@color/Background"
+            android:text="@string/update"/>
+
+        <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Background"
+            android:backgroundTint="@color/Red"
+            android:text="@string/delete"/>
+    </LinearLayout>
+
+</LinearLayout>

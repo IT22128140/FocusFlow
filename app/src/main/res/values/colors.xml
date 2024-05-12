@@ -7,5 +7,6 @@
     <color name="Accent">#F8F8EC</color>
     <color name="Background">#4A5D5E</color>
     <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">@color/Background</color>
+    <color name="Red">#f31c0c</color>
 
 </resources>
