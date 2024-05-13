@@ -18,6 +18,9 @@ interface FocusFlowDao {
     @Delete
     suspend fun deleteTask(focusFlow: FocusFlow)
 
+    @Query("DELETE FROM FocusFlow WHERE id = :id")
+    suspend fun deleteTaskById(id: Int)
+
     @Query("Delete from FocusFlow")
     suspend fun deleteAll()
 

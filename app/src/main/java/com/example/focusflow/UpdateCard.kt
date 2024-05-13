@@ -45,15 +45,7 @@ class UpdateCard : AppCompatActivity() {
             binding.deleteButton.setOnClickListener {
                 FocusFlowDataObject.deleteData(pos)
                 CoroutineScope(Dispatchers.IO).launch {
-                    database.dao().deleteTask(
-                        FocusFlow(
-                            pos + 1,
-                            binding.createTitle.text.toString(),
-                            binding.createDescription.text.toString(),
-                            binding.priority.selectedItem.toString().trim(),
-                            binding.selectTime.text.toString(),
-                            false
-                        )
+                    database.dao().deleteTaskById(pos+1
                     )
                 }
                 Toast.makeText(this, "Task deleted successfully", Toast.LENGTH_SHORT).show()
