@@ -12,6 +12,9 @@ interface FocusFlowDao {
     @Update
     suspend fun updateTask(focusFlow: FocusFlow)
 
+    @Update
+    suspend fun updateStatus(focusFlow: FocusFlow)
+
     @Delete
     suspend fun deleteTask(focusFlow: FocusFlow)
 

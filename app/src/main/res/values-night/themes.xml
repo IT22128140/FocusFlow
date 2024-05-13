@@ -2,8 +2,6 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.FocusFlow" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
-        <item name="colorPrimary">@color/Primary</item>
-        <item name="colorOnPrimary">@color/Primary</item>
-        <item name="boxStrokeColor">@color/Primary</item>
+        <item name="android:windowBackground">@color/Background</item>
     </style>
 </resources>

@@ -5,5 +5,7 @@ import android.webkit.WebSettings.RenderPriority
 data class CardInfo(
     var title:String,
     var desc:String,
-    var priority:String
+    var priority:String,
+    var dueTime:String,
+    var status:Boolean
 )

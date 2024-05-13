@@ -10,5 +10,7 @@ data class FocusFlow(
     var id:Int,
     var title:String,
     var desc:String,
-    var priority:String
+    var priority:String,
+    val dueTime: String,
+    val status:Boolean
 )
